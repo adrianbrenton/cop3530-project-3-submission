@@ -10,12 +10,12 @@
 using namespace std;
 
 /**
- * Data class to store Student data.
+ * Data class to store Song data.
  */
 class Song {
 private:
-    string name;
-    int score;
+    string name; // Stores the song name or ID.
+    int score; // Stores the narcissism score for this song.
 
 public:
     // Accessors:
